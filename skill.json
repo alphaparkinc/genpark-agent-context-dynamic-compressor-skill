@@ -1,0 +1,32 @@
+{
+  "name": "genpark-agent-context-dynamic-compressor-skill",
+  "version": "1.0.0",
+  "description": "Dynamic long-horizon context window compression engine pruning verbose tool outputs, HTML boilerplate & semantic redundancy by 40-70%.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "context-compression",
+    "token-optimization",
+    "llmlingua",
+    "agentic-rag",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "compress_text_context",
+      "description": "Prune repetitive boilerplate while preserving core factual assertions and numbers."
+    },
+    {
+      "name": "compact_json_tool_outputs",
+      "description": "Strip nulls, empty collections, and repetitive schema metadata from agent tool returns."
+    },
+    {
+      "name": "estimate_token_reduction",
+      "description": "Compute approximate token count before and after compression."
+    },
+    {
+      "name": "run_benchmark_compression",
+      "description": "Run comprehensive context compression benchmark."
+    }
+  ]
+}
